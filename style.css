@@ -1,24 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ff6600;
+    background-color: #b75e2a;
     color: #fff;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 .cabecalho {
-    background-color: #e65c00;
-    padding: 10px 0;
+    background-color: #924c20;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 1000;
 }
@@ -48,9 +38,66 @@ body {
 }
 
 .menu {
-    background-color: #cc5200;
+    background-color: #a35a2b;
     padding: 10px 0;
-    margin-top: 80px;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ffe0cc;
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-cabecalho ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-cabecalho a {
+    color: #fff;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.menu-cabecalho a:hover {
+    color: #ffe0cc;
+}
+
+.menu {
+    background-color: #a35a2b;
+    padding: 10px 0;
+
 }
 
 .menu ul {
@@ -81,8 +128,8 @@ body {
 }
 
 .agendas-competencias {
-    padding: 120px 0px;
-    background-image: linear-gradient(180deg, #ac4500 0%, #ff7626 100%);
+    padding: 40px 0px;
+    background-image: linear-gradient(180deg, #8b4513 0%, #b75e2a 100%);
 }
 
 .agendas-competencias .titulo {
@@ -122,8 +169,8 @@ body {
 
 .agenda .data {
     width: 100%;
-    background-color: #000000;
-    color: #E48F45;
+    background-color: #5c2f0a;
+    color: #f7d794;
     padding: 8px 0;
     font-style: italic;
     text-align: center;
@@ -145,7 +192,7 @@ body {
     font-size: 17px;
     font-weight: 200;
     line-height: 22px;
-    color: #E48F45;
+    color: #924c20;
 }
 
 .agenda .botao {
@@ -157,17 +204,16 @@ body {
 .agenda .botao a {
     text-decoration: none;
     font-style: italic;
-    background-color: #ebebeb;
-    color: #0082c4;
+    background-color: #a35a2b;
+    color: #fff;
     padding: 4px 15px;
     border-radius: 25px;
 }
 
 .agenda .botao a:hover {
-    background-color: #0082c4;
-    color: #ebebeb;
+    background-color: #924c20;
+    color: #fff;
 }
-
 
 .contatos .titulo {
     text-align: center;
@@ -188,7 +234,7 @@ body {
 .contato-item {
     flex: 1 1 250px;
     background-color: #fff;
-    color: #E48F45;
+    color: #924c20;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
@@ -221,7 +267,7 @@ body {
 .form-contato h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #E48F45;
+    color: #924c20;
 }
 
 .form-contato input,
@@ -229,7 +275,7 @@ body {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #E48F45;
+    border: 1px solid #924c20;
     border-radius: 10px;
     font-size: 16px;
     color: #333;
@@ -242,8 +288,8 @@ body {
 .form-contato button {
     width: 100%;
     padding: 12px;
-    background-color: #E48F45;
-    color: white;
+    background-color: #924c20;
+    color: #fff;
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -252,10 +298,9 @@ body {
 }
 
 .form-contato button:hover {
-    background-color: #ff6600;
+    background-color: #a35a2b;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .informacoes-contato {
         flex-direction: column;
