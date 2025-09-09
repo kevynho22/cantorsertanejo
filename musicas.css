@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #b75e2a;
-    /* laranja/marrom sertanejo */
     color: #fff;
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@ body {
 
 .cabecalho {
     background-color: #b75e2a;
-    /* marrom escuro */
     padding: 10px 0;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -38,12 +36,10 @@ body {
 
 .menu-cabecalho a:hover {
     color: #f7d794;
-    /* dourado suave */
 }
 
 .menu {
     background-color: #a35a2b;
-    /* laranja queimado */
     padding: 10px 0;
 }
 
@@ -65,7 +61,6 @@ body {
 
 .menu a:hover {
     color: #f7d794;
-    /* dourado */
     text-decoration: underline;
 }
 
@@ -88,9 +83,11 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* Blocos YouTube e Spotify */
+
 .Youtube,
-.spotify {
+.spotify,
+.Facebook,
+.Instagram {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -103,20 +100,26 @@ h2 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.Youtube:hover,
-.spotify:hover {
+.Youtube,
+.spotify,
+.Facebook,
+.Instagram {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .Youtube img,
-.spotify img {
+.spotify img,
+.Facebook img,
+.Instagram img {
     width: 50px;
     height: auto;
 }
 
 .Youtube a,
-.spotify a {
+.spotify a,
+.Facebook a,
+.Instagram a {
     text-decoration: none;
     font-weight: bold;
     color: #b75e2a;
@@ -125,12 +128,14 @@ h2 {
 }
 
 .Youtube a:hover,
-.spotify a:hover {
+.spotify a:hover,
+.Facebook a:hover,
+.Instagram a:hover {
     color: #924c20;
     text-decoration: underline;
 }
 
-/* Bloco de Sucesso */
+
 .Sucesso {
     text-align: center;
     background-color: #fff;
@@ -174,4 +179,110 @@ h2 {
 
 .Sucesso a:hover {
     background-color: #924c20;
+}
+
+.Letra {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+
+}
+.SucessoR {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s; 
+}
+.SucessoR p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: center;
+}
+.SucessoR img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.SucessoR a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a35a2b;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+.Letra2 {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+
+}
+
+.Sucesso3 {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s; 
+}
+.Sucesso3 p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: center;
+}
+.Sucesso3 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Sucesso3 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a35a2b;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+.Letra3 {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+
 }
